@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercice 5 de Jeffen Faÿ</title>
+    <!-- Styles CSS -->
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      thead{
+        display: table-header-group;
+        vertical-align: middle;
+      }
+      tfoot {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Tableau -->
+    <table>
+      <!-- Entête -->
+      <caption>Mon compte BNP</caption>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Libellé</th>
+          <th>Crédit</th>
+          <th>Débit</th>
+        </tr>
+      </thead>
+      <!-- Corps -->
+      <tbody>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Paye</td>
+          <td>1500</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>01/05/2016</td>
+          <td>Courses de la semaine</td>
+          <td>0</td>
+          <td>152,30</td>
+        </tr>
+        <tr>
+          <td>04/05/2016</td>
+          <td>McDo</td>
+          <td>0</td>
+          <td>32,40</td>
+        </tr>
+        <tr>
+          <td>05/05/2016</td>
+          <td>Paye</td>
+          <td>0</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>05/05/2016</td>
+          <td>Internet</td>
+          <td>0</td>
+          <td>39,90</td>
+        </tr>
+      </tbody>
+      <!-- Pied -->
+      <tfoot>
+        <tr>
+          <td colspan="2">Solde</td>
+          <td colspan="2">575,40</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
